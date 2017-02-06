@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+#set( $pluginVersion = $version.replace("-SNAPSHOT",""))
+<personnage name="${className}" version="${pluginVersion}" gencrossVersion="1.11"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="http://www.mrprez.fr/gencross-web/gencross-plugin.xsd">
+	<phase name="Création"/>
+	<phaseList>
+		<phase name="Création"/>
+		
+	</phaseList>
+	<pointPools>
+	</pointPools>
+	<properties>
+	</properties>
+	<beforeChangeValueListeners></beforeChangeValueListeners>
+	<afterChangeValueListeners>
+	</afterChangeValueListeners>
+	<beforeAddPropertyListeners></beforeAddPropertyListeners>
+	<afterAddPropertyListeners></afterAddPropertyListeners>
+	<beforeDeletePropertyListeners>
+	</beforeDeletePropertyListeners>
+	<afterDeletePropertyListeners></afterDeletePropertyListeners>
+	<passToNextPhaseListeners>
+	</passToNextPhaseListeners>
+	<formulas>
+	</formulas>
+	<history></history>
+</personnage>

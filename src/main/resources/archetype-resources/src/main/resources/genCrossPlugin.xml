@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="genCross.plugin.name">${name}</entry>
+	<entry key="genCross.plugin.className">${package}.${className}</entry>
+	<entry key="genCross.plugin.gcrFileName">${packageInPathFormat}/${className}.gcr</entry>
+#set( $pluginVersion = $version.replace("-SNAPSHOT",""))	
+	<entry key="genCross.plugin.version">${pluginVersion}</entry>
+	
+</properties>
+
